@@ -9,3 +9,4 @@
 
 [![My Skills](https://skillicons.dev/icons?i=js,typescript,html,tailwind,nodejs,nextjs,react,angular,java,python,css,wasm,mysql,firebase,linux,)](https://skillicons.dev)
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=SalahAlhaismawi)](https://github.com/ryo-ma/github-profile-trophy)
