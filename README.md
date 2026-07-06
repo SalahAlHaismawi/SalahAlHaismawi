@@ -57,7 +57,7 @@ class Salah:
 
 **ML / Systems**
 
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cpp,cuda,docker,kubernetes,linux,bash,git" alt="ML stack"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cpp,docker,kubernetes,linux,bash,git" alt="ML stack"/>
 
 **Software Engineering**
 
@@ -71,12 +71,12 @@ class Salah:
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SalahAlhaismawi&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAlhaismawi&layout=compact&theme=radical&hide_border=true" alt="Top languages"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=SalahAlhaismawi&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAlhaismawi&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top languages"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SalahAlhaismawi&theme=radical&hide_border=true" alt="GitHub streak"/>
+<img src="https://streak-stats.demolab.com/?user=SalahAlhaismawi&theme=radical&hide_border=true" alt="GitHub streak"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SalahAlhaismawi&theme=redical&bg_color=0d1117&color=f97316&line=f97316&point=ffffff&hide_border=true" alt="Contribution graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SalahAlhaismawi&bg_color=0d1117&color=f97316&line=f97316&point=ffffff&area=true&area_color=f97316&hide_border=true" alt="Contribution graph"/>
 
 </div>
 
