@@ -1,43 +1,65 @@
-### Salah AlHaismawi
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Salah AlHaismawi, applied ML engineer" src="assets/header-light.svg" width="100%">
+</picture>
 
-Applied ML engineer. I train models and ship them: document OCR, language models, speech and vision. Most of my recent work is on Arabic, where good open models are still scarce.
+<p>
+  <a href="https://www.linkedin.com/in/salah-alhaismawi-a62696228/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://huggingface.co/SalahALHaismawi"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"></a>
+  <a href="mailto:salah322s1@gmail.com"><img src="https://img.shields.io/badge/salah322s1@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://salahalhaismawi.github.io/nuqta-ocr/"><img src="https://img.shields.io/badge/Nuqta%20OCR-0F7A5C?style=flat-square" alt="Nuqta OCR website"></a>
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/salah-alhaismawi-a62696228/) · [Hugging Face](https://huggingface.co/SalahALHaismawi) · [Nuqta OCR](https://salahalhaismawi.github.io/nuqta-ocr/) · [salah322s1@gmail.com](mailto:salah322s1@gmail.com)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+  <img alt="Profile statistics" src="assets/stats-light.svg" width="100%">
+</picture>
 
----
+## Nuqta OCR
 
-<a href="https://github.com/SalahAlHaismawi/nuqta-ocr"><img src="https://raw.githubusercontent.com/SalahAlHaismawi/nuqta-ocr/main/assets/nuqta_logo.png" alt="Nuqta OCR" width="220" align="right"></a>
+Open-source Arabic OCR. Two models, 0.8B and 4B, that read books, scans, tables, IDs and passports and keep the tashkeel exactly as printed. The 0.8B runs offline on a phone.
 
-#### Nuqta OCR: open-source Arabic OCR
-
-Two open models (0.8B and 4B) that read Arabic books, scans, tables, IDs and passports, and copy the tashkeel exactly as printed. Released October 2026.
-
-- **#1 on KITAB-Bench and Misraj-DocOCR** among published results (4B)
-- The 0.8B model runs fully offline on Android and iPhone
-- **~20,000 downloads** on Hugging Face in its first month
-- Python library on PyPI: `pip install nuqta-ocr`
-- Other developers have built a Windows GUI, an OCRmyPDF plugin and an invoice reader on top of it
+```bash
+pip install nuqta-ocr
+```
 
 [Repository](https://github.com/SalahAlHaismawi/nuqta-ocr) · [Models](https://huggingface.co/SalahALHaismawi/Nuqta-Arabic-OCR-4B) · [Live demo](https://huggingface.co/spaces/SalahALHaismawi/Nuqta-Arabic-OCR) · [Benchmarks compared](https://salahalhaismawi.github.io/nuqta-ocr/best-arabic-ocr/) · [Raw benchmark outputs](https://huggingface.co/datasets/SalahALHaismawi/Arabic-OCR-benchmark-predictions)
 
-<br clear="right">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/kitab-dark.svg">
+  <img alt="KITAB-Bench character error rate: Nuqta 4B 0.106, Nuqta 0.8B 0.117, Gemini-2.0-Flash 0.130" src="assets/kitab-light.svg" width="100%">
+</picture>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/misraj-dark.svg">
+  <img alt="Misraj-DocOCR MARS: Nuqta 4B 82.8, Baseer v2 77.8, Nuqta 0.8B 77.1" src="assets/misraj-light.svg" width="100%">
+</picture>
 
-#### Other projects
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/downloads-dark.svg">
+  <img alt="Nuqta OCR cumulative downloads since launch" src="assets/downloads-light.svg" width="100%">
+</picture>
 
-| Project | What it is |
-| --- | --- |
-| [**training-doctor**](https://github.com/SalahAlHaismawi/training-doctor) | Watches a training run and flags silent failures (plateaus, exploding gradients, diverging eval loss) with a specific fix for each. |
-| [**YOLOv26 fire detection**](https://github.com/SalahAlHaismawi/yolov26-fire-detection) | Real-time fire and smoke detector, 94.9% mAP@50, trained on 8,939 images. ~6,000 downloads on [Hugging Face](https://huggingface.co/SalahALHaismawi/yolov26-fire-detection). |
-| [**Talon**](https://github.com/SalahAlHaismawi/Talon-D1-LLM) | A language model written and trained from scratch: RoPE, GQA, SwiGLU, mixture of experts. |
-| [**Falcon-H1R UAE laws**](https://huggingface.co/SalahALHaismawi/falcon-h1r-uae-laws) | Falcon-H1R-7B fine-tuned on UAE legislation. |
+Built on Nuqta by other developers: [Windows GUI](https://github.com/hadi4172/nuqta-ocr-gui) · [OCRmyPDF plugin](https://github.com/AbdoSol1iman/ocrmypdf-nuqta) · [handwritten invoice reader](https://github.com/OnlyAbdullh/HandwrittenInvoiceAI) · [handwriting OCR comparison](https://huggingface.co/spaces/BloodyWolf143/warraq-arabic-htr)
 
-#### What I work on
+## Other work
 
-- **Document AI:** OCR for Arabic-script languages (Arabic, Jawi), tables, layout and diacritics
-- **Model training:** pretraining, supervised fine-tuning and RL, with evaluation against public benchmarks
-- **Speech:** ASR fine-tuning and speaker diarization for multilingual, code-switched audio
-- **Infrastructure:** distributed training (FSDP), CUDA/Triton kernels, on-prem GPU serving with vLLM and llama.cpp
+- [**training-doctor**](https://github.com/SalahAlHaismawi/training-doctor): watches a training run and flags silent failures (plateaus, exploding gradients, diverging eval loss) with a fix for each.
+- [**YOLOv26 fire detection**](https://github.com/SalahAlHaismawi/yolov26-fire-detection): real-time fire and smoke detector. 94.9% mAP@50 on 8,939 images, ~6k downloads on [Hugging Face](https://huggingface.co/SalahALHaismawi/yolov26-fire-detection).
+- [**Talon**](https://github.com/SalahAlHaismawi/Talon-D1-LLM): a language model written and trained from scratch, with RoPE, GQA, SwiGLU and mixture of experts.
+- [**Falcon-H1R UAE laws**](https://huggingface.co/SalahALHaismawi/falcon-h1r-uae-laws): Falcon-H1R-7B fine-tuned on UAE legislation.
 
-PyTorch · Transformers · vLLM · llama.cpp · CUDA/Triton · FastAPI · Docker · Kubernetes · TypeScript/React
+## Stack
+
+<img src="https://skillicons.dev/icons?i=pytorch,python,cpp,linux,docker,kubernetes,fastapi,gcp,ts,react&theme=dark" alt="PyTorch, Python, C++, Linux, Docker, Kubernetes, FastAPI, Google Cloud, TypeScript, React">
+
+Transformers · vLLM · llama.cpp · CUDA/Triton · FSDP · Weights & Biases
+
+## Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SalahAlHaismawi/SalahAlHaismawi/output/snake-dark.svg">
+  <img alt="Contribution graph" src="https://raw.githubusercontent.com/SalahAlHaismawi/SalahAlHaismawi/output/snake.svg" width="100%">
+</picture>
+
+<sub>Charts are generated by [scripts/build.py](scripts/build.py) from live Hugging Face and GitHub numbers and refresh every day.</sub>
