@@ -1,101 +1,43 @@
-<div align="center">
+### Salah AlHaismawi
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Salah+AlHaismawi;Applied+ML+Engineer;I+train+LLMs+from+scratch;I+build+the+infra+that+ships+them" alt="Typing SVG" />
+Applied ML engineer. I train models and ship them: document OCR, language models, speech and vision. Most of my recent work is on Arabic, where good open models are still scarce.
 
-<p>
-  <a href="https://huggingface.co/"><img src="https://img.shields.io/badge/🤗_Hugging_Face-Models-FFD21E?style=for-the-badge" alt="Hugging Face"/></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
-
-<img src="https://komarev.com/ghpvc/?username=SalahAlhaismawi&style=for-the-badge&color=orange" alt="Profile views"/>
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/salah-alhaismawi-a62696228/) · [Hugging Face](https://huggingface.co/SalahALHaismawi) · [Nuqta OCR](https://salahalhaismawi.github.io/nuqta-ocr/) · [salah322s1@gmail.com](mailto:salah322s1@gmail.com)
 
 ---
 
-## 🧠 About Me
+<a href="https://github.com/SalahAlHaismawi/nuqta-ocr"><img src="https://raw.githubusercontent.com/SalahAlHaismawi/nuqta-ocr/main/assets/nuqta_logo.png" alt="Nuqta OCR" width="220" align="right"></a>
 
-Applied machine learning engineer focused on **training, debugging, and deploying deep learning systems**, with a particular interest in **LLMs and ML infrastructure**.
+#### Nuqta OCR: open-source Arabic OCR
 
-- 🔥 Trained language models **from scratch under tight compute constraints**
-- 🩺 Worked through real training failure modes: plateaus, instability, wasted runs
-- 🛠️ Build tooling that makes model training **more reliable and efficient**
-- ⚙️ Comfortable at the systems layer: distributed training, kernel optimization, on-prem GPU infra
-- 🌍 Ship multilingual speech and language systems for code-switched, real-world audio
-- 🤝 Active open-source contributor on Hugging Face and GitHub
+Two open models (0.8B and 4B) that read Arabic books, scans, tables, IDs and passports, and copy the tashkeel exactly as printed. Released October 2026.
 
-```python
-class Salah:
-    def __init__(self):
-        self.role      = "Applied ML Engineer"
-        self.focus     = ["LLM pretraining", "ASR & diarization", "ML infrastructure"]
-        self.stack     = ["PyTorch", "FSDP", "CUDA/Triton", "FastAPI", "Docker"]
-        self.happiest  = "when loss curves go down and GPUs stay at 100%"
+- **#1 on KITAB-Bench and Misraj-DocOCR** among published results (4B)
+- The 0.8B model runs fully offline on Android and iPhone
+- **~20,000 downloads** on Hugging Face in its first month
+- Python library on PyPI: `pip install nuqta-ocr`
+- Other developers have built a Windows GUI, an OCRmyPDF plugin and an invoice reader on top of it
 
-    def current_mission(self):
-        return "Making model training boring: predictable, observable, efficient"
-```
+[Repository](https://github.com/SalahAlHaismawi/nuqta-ocr) · [Models](https://huggingface.co/SalahALHaismawi/Nuqta-Arabic-OCR-4B) · [Live demo](https://huggingface.co/spaces/SalahALHaismawi/Nuqta-Arabic-OCR) · [Benchmarks compared](https://salahalhaismawi.github.io/nuqta-ocr/best-arabic-ocr/) · [Raw benchmark outputs](https://huggingface.co/datasets/SalahALHaismawi/Arabic-OCR-benchmark-predictions)
+
+<br clear="right">
 
 ---
 
-## 🚀 What I Work On
+#### Other projects
 
-| Area | What that looks like |
-|------|----------------------|
-| 🧬 **LLM Training** | From-scratch pretraining, continued pretraining, SFT, benchmark-driven evaluation |
-| 🎙️ **Speech AI** | Custom ASR fine-tuning, speaker diarization, streaming pipelines for multilingual and code-switched audio |
-| ⚡ **Performance** | CUDA/Triton kernels, distributed training with FSDP, NCCL over RoCE, inference optimization |
-| 🏗️ **ML Infra** | On-prem GPU clusters, CI/CD for models, privacy-first on-premises deployment |
-| 👁️ **Computer Vision** | YOLO-based detection models for safety and industrial use cases |
+| Project | What it is |
+| --- | --- |
+| [**training-doctor**](https://github.com/SalahAlHaismawi/training-doctor) | Watches a training run and flags silent failures (plateaus, exploding gradients, diverging eval loss) with a specific fix for each. |
+| [**YOLOv26 fire detection**](https://github.com/SalahAlHaismawi/yolov26-fire-detection) | Real-time fire and smoke detector, 94.9% mAP@50, trained on 8,939 images. ~6,000 downloads on [Hugging Face](https://huggingface.co/SalahALHaismawi/yolov26-fire-detection). |
+| [**Talon**](https://github.com/SalahAlHaismawi/Talon-D1-LLM) | A language model written and trained from scratch: RoPE, GQA, SwiGLU, mixture of experts. |
+| [**Falcon-H1R UAE laws**](https://huggingface.co/SalahALHaismawi/falcon-h1r-uae-laws) | Falcon-H1R-7B fine-tuned on UAE legislation. |
 
----
+#### What I work on
 
-## 🛠️ Tech Stack
+- **Document AI:** OCR for Arabic-script languages (Arabic, Jawi), tables, layout and diacritics
+- **Model training:** pretraining, supervised fine-tuning and RL, with evaluation against public benchmarks
+- **Speech:** ASR fine-tuning and speaker diarization for multilingual, code-switched audio
+- **Infrastructure:** distributed training (FSDP), CUDA/Triton kernels, on-prem GPU serving with vLLM and llama.cpp
 
-<div align="center">
-
-**ML / Systems**
-
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,python,cpp,docker,kubernetes,linux,bash,git" alt="ML stack"/>
-
-**Software Engineering**
-
-<img src="https://skillicons.dev/icons?i=js,typescript,react,nextjs,angular,nodejs,java,html,css,tailwind,wasm,mysql,firebase" alt="SWE stack"/>
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=SalahAlhaismawi&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SalahAlhaismawi&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top languages"/>
-
-<img src="https://streak-stats.demolab.com/?user=SalahAlhaismawi&theme=radical&hide_border=true" alt="GitHub streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SalahAlhaismawi&bg_color=0d1117&color=f97316&line=f97316&point=ffffff&area=true&area_color=f97316&hide_border=true" alt="Contribution graph"/>
-
-</div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=SalahAlhaismawi&theme=radical&no-frame=true&row=1&column=7" alt="Trophies"/>
-
-</div>
-
----
-
-<div align="center">
-
-*"Models succeed or fail at the systems layer."*
-
-⭐ If something here is useful to you, a star is always appreciated.
-
-</div>
+PyTorch · Transformers · vLLM · llama.cpp · CUDA/Triton · FastAPI · Docker · Kubernetes · TypeScript/React
